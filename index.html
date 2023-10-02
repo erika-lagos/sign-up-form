@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="left-container">
+        <img src="images/background.jpg" alt="A beautiful blue ocean" class="left-image">
+        <div class="left-content">
+            <img src="images/logo.png" alt="A cool line-drawn octopus" class="logo">
+            <span class="logo-text">Octopi</span>
+        </div>
+        <div class="footer">
+            <p>
+                Photo by <a href="https://unsplash.com/@m_gatus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gatis Marcinkevics</a> on <a href="https://unsplash.com/photos/a5uptAdUmjE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </div>
+    </div>
+    <div class="right-container">
+        <div class="hero">
+            <p>
+                Come to Octopi to learn everything about the mighty octopus! You know you need this in your life to realize your deepest dreams of knowing everything about Octopi.
+                Sign up <em>now</em> to get started.
+            </p>
+            <p>
+                You <em>know</em> you want to.
+            </p>
+        </div>
+        <form action="#" method="post" class="sign-up-form">
+            <div class="inputs">
+                <p>Let's do this!</p>
+                <div class="inputs-row">
+                    <ul>
+                        <li>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Octo" required>
+                        </li>
+                        <li>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Pi" required>
+                        </li>
+                    </ul>
+                </div>
+                <div class="inputs-row">
+                    <ul>
+                        <li>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="Octopi@theocean.com" required>
+                        </li>
+                        <li>
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="tel" id="number" name="number" placeholder="12345678">
+                        </li>
+                    </ul>
+                </div>
+                <div class="inputs-row">
+                    <ul>
+                        <li class="password error">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </li>
+                        <li>
+                            <label for="password-c">CONFIRM PASSWORD</label>
+                            <input type="password" id="password-c" name="password-c" required>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submit">
+                <button type="submit">Create Account</button>
+            </div>
+            <div class="log-in">
+                Already have an account? <a href="">Log in</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,158 @@
+
+@font-face {
+    font-family: 'ocean_coastlinesregular';
+    src: url('fonts/ocean_coastlines-webfont.woff2') format('woff2'),
+         url('fonts/ocean_coastlines-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-image {
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+}
+
+.left-content {
+    padding: 24px;
+    position: relative;
+    bottom: 75vh;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-family: 'ocean_coastlinesregular';
+    font-size: 100pt;
+}
+
+.logo {
+    width: 10rem;
+    color: white;
+}
+
+.footer {
+    position: relative;
+    bottom: 26vh;
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.footer a {
+    color: white;
+}
+
+.right-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    padding: 12vh 40px 20px 40px;
+    background-color: #ececec;
+    font-size: 16pt;
+    font-weight: 800;
+}
+
+.sign-up-form p {
+    margin: 0;
+    font-size: 16pt;
+}
+
+.inputs {
+    padding: 20px 40px;
+    box-shadow: 0px 10px 5px -5px #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    padding: 0;
+    margin: 10px 0px;
+    list-style: none;
+}
+
+li label {
+    font-size: x-small;
+    letter-spacing: 1px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    font-family: inherit;
+    font-size: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 25px;
+    width: 200px;
+}
+
+input:invalid {
+    border: 1px solid #bd0000;
+}
+
+input:focus,
+input:focus-visible {
+    border: 1px solid blue;
+    box-shadow: 5px 10px 5px -5px #DBDBDB;
+    outline: none;
+}
+
+.error::after {
+    content: "*Passwords do not match";
+    color: #bd0000;
+    font-size: x-small;
+}
+
+input.error {
+    border: 1px solid #bd0000;
+}
+
+.submit {
+    margin: 40px;
+}
+
+.submit button {
+    padding: 15px 50px;
+    font-size: 12pt;
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    box-shadow: 5px 10px 5px -5px #DBDBDB;
+}
+
+.log-in {
+    margin: 20px 40px;
+}
+
+.log-in a {
+    color: teal;
+    text-decoration: none;
+    font-weight: 800;
+}
